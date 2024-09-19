@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+  }
+ nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 17px;
+    height: 90px;
+    width: 1520px;
+    background-color: rgb(215, 219, 222);
+    box-shadow:10px 5px 15px 10px rgba(29, 28, 28, 0.25); 
+    padding-right: 10px;
+       
+  }
+  nav h3{
+    margin: 20px;
+    margin-left: 10em;
+    font-size: 22px;
+    
+  }
+  nav ul li a {
+    color: #111010;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+  }
+  nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: #ff004f;
+    position: absolute;
+    left: 0%;
+    bottom: -6px;
+    transition: 0.3s;
+  }
+  nav ul li a:hover::after{
+    width: 100%;
+  }
+  nav ul li{
+    display: inline-block;
+    margin: 10px;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: 15em;
+    
+  }
+  nav a{
+    text-decoration: none;
+  }
+  nav button{
+    margin-left: 20em;
+    height: 35px;
+    width: 140px;
+    border-radius: 10px;
+  }
+  .loki button:hover{
+    background-color: greenyellow;
+    color: black;
+    box-shadow: 0 0 5px rgb(6, 175, 3),
+    0 0 12px rgb(24, 224, 17),
+    0 0 20px rgb(9, 237, 47),
+    0 0 1502px rgb(22, 220, 52); 
+  }
+  .ch{
+    margin-top: 15px;
+  }
+  .ch h1{
+    text-align: center;
+    color: #ff004f;
+    font-weight: 500px;
+    font-size: 30px;
+  }
+  .ch p{
+    text-align: center;
+    margin-top: 5px;
+  }
+  .ch1{
+    display: flex;
+    padding: 50px;
+    margin-top: 20px;
+    gap: 50px;
+    justify-content: center;
+  }
+  .ch1 img{
+    height: 450px;
+    width: 500px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+transition: 0.8s;
+
+  }
+  .ch1 img:hover{
+    transform: scale(1.1);
+
+  }
+  .ch1 p{
+    margin-top: 60px;
+    font-size: 20px;
+  }
+  .ch1 p:hover{
+    color: rgb(34, 223, 230);
+  }
+  .ch1 button{
+    margin-top: 10px;
+    height: 30px;
+    width: 70px;
+    border-radius: 05px;
+    color: black;
+    background-color: green;
+  }
+  .ch1 button:hover{
+    background-color: greenyellow;
+    color: black;
+    box-shadow: 0 0 5px rgb(6, 175, 3),
+    0 0 12px rgb(24, 224, 17),
+    0 0 20px rgb(9, 237, 47),
+    0 0 1502px rgb(22, 220, 52); 
+
+  }
+  .ch1 h3{
+    color: rgb(20, 20, 21);
+    font-weight: bold;
+  }
+  #contact{
+    margin-top: 50px;
+    background-color: rgb(252, 249, 249);
+  }
+  .gaye1 a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #0909ea;
+    display: inline-block;
+    transition: transform 0.5s;
+  }
+  .gaye1 a:hover{
+    transform: translateY(-10px);
+    color: rgb(240, 15, 90);
+  }
+  .gaye{
+    display: flex;
+    
+    justify-content: space-around;
+  }
+  .gaye:hover{
+    background-color: whitesmoke;
+  }
+  footer{
+    text-align: center;
+  }
+       /*----------------*/
+  .oo button{
+    height: 100px;
+    width: 1520px;
+    font-size: 50px;
+    font-weight: 600px ;
+  }
+  
+  
